@@ -7,7 +7,7 @@ from email.mime.text import MIMEText
 
 subject = "New Candidate"
 body = "Can you all review this resume and let me know what you think?  A friend of mine sent it to me :) \n \n \n "
-sender_email = "dozier@uwtlogistics.com"
+sender_email = "name@email.com"
 receiver_email = ['name@email.com', 'name2@email']
 #password = input("Type your password and press enter:")
 
